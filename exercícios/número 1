@@ -1,1 +1,14 @@
+const int ledA = 3;
 
+void setup()
+{
+  pinMode (ledA, OUTPUT);
+}
+
+void loop()
+{
+ digitalWrite (ledA, HIGH);
+  delay (500);
+  digitalWrite  (ledA, LOW);
+  delay (500);
+}
