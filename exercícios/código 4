@@ -1,0 +1,17 @@
+const int ledB = 3;
+const int botao = 5;
+
+void setup()
+{
+  pinMode (ledB, OUTPUT);
+  pinMode (botao, INPUT);
+}
+int var;
+
+void loop()
+{
+ var = digitalRead(botao);
+  if (var){
+    digitalWrite(ledB,HIGH);
+  }
+}
