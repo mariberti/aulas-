@@ -1,0 +1,36 @@
+const int ledA = 3;
+const int ledL = 4;
+const int ledVE = 5;
+const int ledAZ = 6;
+const int ledV = 7;
+
+void setup()
+{
+  pinMode(ledA, OUTPUT);
+  pinMode (ledL, OUTPUT);
+  pinMode (ledVE, OUTPUT);
+  pinMode (ledAZ,OUTPUT);
+  pinMode (ledV, OUTPUT);
+ 
+}
+
+void loop()
+{
+
+    digitalWrite(ledA,HIGH);
+    delay (2000);
+    digitalWrite (ledL,HIGH);
+  delay (2000);
+  digitalWrite (ledVE,HIGH);
+  delay (2000);
+  digitalWrite (ledAZ, HIGH);
+    delay (2000);
+  digitalWrite (ledV, HIGH);
+  delay (2000);
+  digitalWrite(ledA,LOW);
+  digitalWrite (ledL,LOW);
+   digitalWrite (ledVE,LOW);
+  digitalWrite (ledAZ, LOW);
+  digitalWrite (ledV, LOW);
+  delay (2000);
+  }
